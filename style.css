@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+}
+
+.custom-h{
+    height: 90%;
+}
