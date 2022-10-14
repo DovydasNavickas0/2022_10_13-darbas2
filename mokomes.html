@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="row box1 p-1">
+            <a href="#" class="col-1 p-2 color1">Mokomes</a>
+            <a href="pagrindas.html" class="col-1 p-2">Pagrindas</a>
+            <a href="galerija.html" class="col-1 p-2">Galerijas</a>
+            <a href="kontaktai.html" class="col-1 p-2">Kontaktai</a>
+            <div class="col-5"></div>
+            <input type="text" id="search" name="search" placeholder="veskite zodi..." class="custom-w2">
+            <button type="button" class="search-button custom-w3">Paieska</button> 
+        </header>
+
+        <div class="box2">
+            <div class="m-2 p-2 custom-h data">
+        
+                <div>
+                    <label for="email">Jusu pastas</label>
+                    <br>
+                    <input type="email" id="email" name="email"class="col-4">
+                </div>
+    
+                <div>
+                    <label for="fname">Jusu vardas</label>
+                    <br>
+                    <input type="text" id="fname" name="fname" class="col-4">
+                </div>
+
+                <div class="p-1"></div>
+    
+                <div>
+                    <select class="w-75 p-1 col-2" name="city" id="city">                
+                        <option value="none">Pasirinkite miesta</option>               
+                        <option value="Kaunas">Kaunas</option>               
+                        <option value="Vilnius">Vilnius</option>               
+                        <option value="Klaipeda">Klaipeda</option>           
+                    </select>
+                </div>
+    
+                <div>
+                    <input type="radio" id="news" name="news">
+                    <label for="news">Noriu gauti naujienas</label>
+                </div>
+    
+                <div>
+                    <label for="questions">Uzduoti klausima</label>
+                    <br>
+                    <textarea id="questions" name="questions"row="5" cols="30"></textarea>
+                </div>
+    
+                <div> 
+                    <input type="checkbox" id="accept" name="accept">
+                    <label for="accept">Sutinku</label>
+                </div>
+    
+                <button type="button" class="send-button col-1 bg-success">Siusti</button>
+            </div>
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/02/Globaloria_student_at_computer.jpg" alt="student at computer" class="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
